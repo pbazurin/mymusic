@@ -1,0 +1,90 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: none repeat scroll 0 0 #1b1b1b;
+    font: 13px/22px Helvetica,Arial,sans-serif;
+    margin: 0 auto;
+    height: 100%;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    height: 7%;
+    width: 100%;
+    background: linear-gradient(0, #0b6db9 0, #449ddd 64%, #5ba8ef 65%)
+}
+
+.logo {
+    margin-left: 35%;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.logo_text {
+    color: #ffffff;
+    font-size: 5vh;
+    margin: 3vw;
+}
+
+.mainContainer {
+    height: 100%;
+    width: 100%;
+}
+
+.mainContainer_box {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+
+    width: 90%;
+    height: 65%;
+}
+
+/*
+    Player
+*/
+
+.player {
+    width: 75%;
+    height: 100%;
+    float: left;
+}
+
+.player_header {
+    height: 10%;
+    width: 100%;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 3vh;
+    line-height: 5vh;
+}
+
+.player_content {
+    height: 90%;
+    width: 100%;
+    border: none;
+}
+
+/*
+    Explorer
+*/
+
+.explorer {
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+
+.explorer_toolbar {
+    height: 10%;
+    width: 100%;
+}
+
+.explorer_content {
+    height: 90%;
+    width: 100%;
+    background: #ffffff;
+}
