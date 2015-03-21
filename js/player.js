@@ -2,7 +2,7 @@
 $.UI.Player = {
     _player: null,
 
-    Init: function(item, onSuccess) {
+    Init: function(onSuccess) {
         $('<script>')
             .attr({
                 "type": "text/javascript",
@@ -14,7 +14,7 @@ $.UI.Player = {
             var pl = $.UI.Player;
 
             pl._player = new YT.Player('ytplayer', {
-                videoId: item.yId,
+                videoId: "guXMb7zLblM",
                 playerVars: {
                     rel: 0,
                     showinfo: 0
@@ -25,8 +25,6 @@ $.UI.Player = {
                     onError: pl.OnPlayerError
                 }
             });
-
-            $(".player_header").html(item.name);
         };
 
         $.isFunction(onSuccess) && onSuccess();

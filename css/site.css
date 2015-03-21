@@ -27,7 +27,7 @@ header {
     color: #ffffff;
     font-size: 5vh;
     font-weight: bold;
-    margin: 3vw;
+    margin: 1vw;
 }
 
 .mainContainer {
@@ -81,10 +81,87 @@ header {
 .explorer_toolbar {
     height: 10%;
     width: 100%;
+    position: relative;
+}
+
+.explorer_toolbar_currPath {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #ffffff;
+}
+
+.explorer_toolbar_search {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: right;
+}
+
+.explorer_toolbar_search_text {
+    width: 20%;
+    background: #b8b8b8;
+    transition: all 0.3s ease;
+}
+
+.explorer_toolbar_search_text.explorer_toolbar_search_text--active {
+    width: 80%;
+    background: #ffffff;
+}
+
+.explorer_toolbar_search_icon {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-image: url("../img/search.png");
+    background-size: cover;
 }
 
 .explorer_content {
     height: 90%;
+    max-height: 90%;
     width: 100%;
-    background: #ffffff;
+    background: #222;
+    color: #b8b8b8;
+    cursor: pointer;
+    font-size: 16px;
+    overflow: auto;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.explorer_content_item {
+}
+.explorer_content_item:hover {
+    background: #525252;
+}
+.explorer_content_item.explorer_content_item--active {
+    background: #3a3a3a;
+}
+
+.explorer_content_item_text {
+    vertical-align: middle;
+}
+
+.explorer_content_item_icon {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+}
+
+.folderIcon {
+    background-image: url("../img/folder.png")
+}
+
+.musicItemIcon {
+    background-image: url("../img/musicItem.png")
 }

@@ -2,19 +2,150 @@
 $.UI.Explorer = {
     _musicItems: [],
 
-    Init: function (onSuccess) {
-        var ex = $.UI.Explorer;
+    ItemType: {
+        Folder: 0,
+        MusicItem: 1
+    },
 
-        $.getJSON("musicdb.txt", function (data) {
-            $.each(data, function(_, item) {
-                item.name = item.path.split('/').pop();
+    Init: function(onSuccess) {
+        var ex = $.UI.Explorer,
+            activeItemClass = "explorer_content_item--active",
+            activeSearchClass = "explorer_toolbar_search_text--active";
+
+        $(document)
+            .on("click", ".explorer_content_item", function() {
+                var $item = $(this),
+                    item = $item.data("item"),
+                    $search = $(".explorer_toolbar_search_text");
+
+                if (item.type !== ex.ItemType.MusicItem) {
+                    return;
+                }
+
+                if ($search.val()) {
+                    $search.val("").trigger("blur");
+                    ex.GoToFolder(item.path.split("/").slice(0, -1).join("/"));
+
+                    $.each($(".explorer_content_item"), function (_, i) {
+                        var $i = $(i);
+
+                        if ($i.data("item").path === item.path) {
+                            $item = $i;
+                            return;
+                        }
+                    });
+                }
+
+                $("." + activeItemClass).removeClass(activeItemClass);
+                $item.addClass(activeItemClass);
+
+                $.UI.Player.Play(item);
+            })
+            .on("dblclick", ".explorer_content_item", function(e) {
+                var item = $(this).data("item");
+
+                if (item.type !== ex.ItemType.Folder) {
+                    return;
+                }
+
+                ex.GoToFolder(item.path);
             });
 
+        $(".explorer_toolbar_search_text")
+            .on("focus", function() {
+                $(this).addClass(activeSearchClass);
+            })
+            .on("blur", function() {
+                var $input = $(this);
+
+                if (!$input.val()) {
+                    $input.removeClass(activeSearchClass);
+                }
+            })
+            .on("keyup", function() {
+                ex.Search($(this).val());
+            });
+
+        $.getJSON("musicdb.txt", function(data) {
+            $.each(data, function(_, item) {
+                item.name = item.path.split('/').pop();
+                item.type = ex.ItemType.MusicItem;
+            });
+
+            data.sort(function(a, b) {
+                return a.path > b.path;
+            });
             ex._musicItems = data;
 
-            $("#explorerItemTemplate").tmpl(data).appendTo('.explorer_content');
+            ex.GoToFolder();
 
-            $.isFunction(onSuccess) && onSuccess(ex._musicItems[0]);
+            $.isFunction(onSuccess) && onSuccess();
         });
+    },
+
+    GoToFolder: function(path) {
+        var folders = [],
+            musicItems = [],
+            ex = $.UI.Explorer,
+            folderName,
+            allItems,
+            $explorerContent = $(".explorer_content");
+
+        if (path) {
+            folders.push({
+                name: "...",
+                type: ex.ItemType.Folder,
+                path: path.split("/").slice(0, -1).join("/")
+            });
+        }
+
+        $.each(ex._musicItems, function (_, item) {
+            if (path && item.path.indexOf(path) === -1) {
+                return;
+            }
+
+            var shiftedPath = path ? item.path.replace(path + "/", "") : item.path;
+
+            if (shiftedPath.indexOf('/') === -1) {
+                musicItems.push(item);
+                return;
+            }
+
+            folderName = shiftedPath.split('/')[0];
+
+            if ($.grep(folders, function(ii) {
+                return ii.name == folderName;
+            }).length === 0) {
+                folders.push({
+                    name: folderName,
+                    type: ex.ItemType.Folder,
+                    path: path ? path + "/" + folderName : folderName
+                });
+            }
+        });
+
+        allItems = folders.concat(musicItems);
+
+        $explorerContent.empty();
+        $("#explorerItemTemplate").tmpl(allItems).appendTo($explorerContent);
+        $(".explorer_toolbar_currPath").html(path);
+    },
+
+    Search: function(keyword) {
+        var matchedItems = [],
+            ex = $.UI.Explorer,
+            $explorerContent = $(".explorer_content");
+
+        $.each(ex._musicItems, function (_, item) {
+            if (keyword && item.name.indexOf(keyword) === -1) {
+                return;
+            }
+
+            matchedItems.push(item);
+        });
+
+        $explorerContent.empty();
+        $("#explorerItemTemplate").tmpl(matchedItems).appendTo($explorerContent);
+        $(".explorer_toolbar_currPath").empty();
     }
 };

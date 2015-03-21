@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>My music</title>
+<head>
+    <title>My music</title>
 
-        <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
-        <link href="css/site.css" rel="stylesheet"/>
-    </head>
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="css/site.css" rel="stylesheet" />
+</head>
 <body>
     <header>
         <img src="img/logo.png" alt="logo" class="logo" />
@@ -22,18 +22,17 @@
 
             <div class="explorer">
                 <div class="explorer_toolbar">
-
+                    <div class="explorer_toolbar_currPath"></div>
+                    <div class="explorer_toolbar_search">
+                        <input type="text" class="explorer_toolbar_search_text" />
+                        <i type="text" class="explorer_toolbar_search_icon"></i>
+                    </div>
                 </div>
 
                 <div class="explorer_content">
                 </div>
-                <script id="explorerItemTemplate" type="text/x-jquery-tmpl">
-                    <div>
-                        <a href="#" onclick="$.UI.Player.Play(JSON.parse(unescape('${ escape(JSON.stringify($data)) }')))">${name}</a>
-                    </div>
-                </script>
-            </div>
         </div>
+    </div>
     </div>
 
     <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.3.min.js"></script>
@@ -41,5 +40,22 @@
     <script type="text/javascript" src="js/explorer.js"></script>
     <script type="text/javascript" src="js/player.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
+
+    <script id="explorerItemTemplate" type="text/x-jquery-tmpl">
+        <div class="explorer_content_item" data-item="${JSON.stringify($data)}">
+            {{if type === $.UI.Explorer.ItemType.Folder}}
+
+            <i class="explorer_content_item_icon folderIcon"></i>
+            <span class="explorer_content_item_text">${name}</span>
+
+            {{else}}
+
+            <i class="explorer_content_item_icon musicItemIcon"></i>
+            <span class="explorer_content_item_text">${name}</span>
+
+            {{/if}}
+
+        </div>
+    </script>
 </body>
 </html>

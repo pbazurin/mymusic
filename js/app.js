@@ -1,5 +1,4 @@
 $(function () {
-    $.UI.Explorer.Init(function (someItem) {
-        $.UI.Player.Init(someItem);
-    });
+    $.UI.Explorer.Init();
+    $.UI.Player.Init();
 });
