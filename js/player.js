@@ -1,6 +1,7 @@
 ﻿$.UI = $.UI || {};
 $.UI.Player = {
     _player: null,
+    _currentItem: null,
 
     Init: function(onSuccess) {
         $('<script>')
@@ -32,6 +33,10 @@ $.UI.Player = {
     Play: function (item) {
         $.UI.Player._player.loadVideoById(item.yId);
         $(".player_header").html(item.name);
+        $.UI.Player._currentItem = item;
+    },
+    GetCurrentItem: function() {
+        return $.UI.Player._currentItem;
     },
 
     // Events

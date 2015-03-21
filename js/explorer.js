@@ -15,25 +15,10 @@ $.UI.Explorer = {
         $(document)
             .on("click", ".explorer_content_item", function() {
                 var $item = $(this),
-                    item = $item.data("item"),
-                    $search = $(".explorer_toolbar_search_text");
+                    item = $item.data("item");
 
                 if (item.type !== ex.ItemType.MusicItem) {
                     return;
-                }
-
-                if ($search.val()) {
-                    $search.val("").trigger("blur");
-                    ex.GoToFolder(item.path.split("/").slice(0, -1).join("/"));
-
-                    $.each($(".explorer_content_item"), function (_, i) {
-                        var $i = $(i);
-
-                        if ($i.data("item").path === item.path) {
-                            $item = $i;
-                            return;
-                        }
-                    });
                 }
 
                 $("." + activeItemClass).removeClass(activeItemClass);
@@ -56,10 +41,23 @@ $.UI.Explorer = {
                 $(this).addClass(activeSearchClass);
             })
             .on("blur", function() {
-                var $input = $(this);
+                var $input = $(this),
+                    currentItem;
 
                 if (!$input.val()) {
                     $input.removeClass(activeSearchClass);
+                    currentItem = $.UI.Player.GetCurrentItem();
+
+                    ex.GoToFolder(currentItem.path.split("/").slice(0, -1).join("/"));
+
+                    $.each($(".explorer_content_item"), function(_, i) {
+                        var $i = $(i);
+
+                        if ($i.data("item").path === currentItem.path) {
+                            $i.addClass(activeItemClass);
+                            return;
+                        }
+                    });
                 }
             })
             .on("keyup", function() {
