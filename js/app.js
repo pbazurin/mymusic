@@ -1,3 +1,5 @@
-$(function() {
-    //alert("I'm here");
+$(function () {
+    $.UI.Explorer.Init(function (someItem) {
+        $.UI.Player.Init(someItem);
+    });
 });

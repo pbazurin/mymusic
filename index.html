@@ -3,35 +3,43 @@
     <head>
         <title>My music</title>
 
-        <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
         <link href="css/site.css" rel="stylesheet"/>
-        <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
-        <script type="text/javascript" src="js/app.js"></script>
     </head>
-    <body>
-        <header>
-            <img src="img/logo.png" alt="logo" class="logo" />
-            <span class="logo_text">My music</span>
-        </header>
+<body>
+    <header>
+        <img src="img/logo.png" alt="logo" class="logo" />
+        <span class="logo_text">My music</span>
+    </header>
 
-        <div class="mainContainer">
-            <div class="mainContainer_box">
-                <div class="player">
-                    <div class="player_header">
-                        Test header
-                    </div>
-                    <iframe type="text/html" src="http://www.youtube.com/embed/M7lc1UVf-VE?autoplay=1" class="player_content"></iframe>
+    <div class="mainContainer">
+        <div class="mainContainer_box">
+            <div class="player">
+                <div class="player_header">
+                </div>
+                <div id="ytplayer" class="player_content"></div>
+            </div>
+
+            <div class="explorer">
+                <div class="explorer_toolbar">
+
                 </div>
 
-                <div class="explorer">
-                    <div class="explorer_toolbar">
-                        
-                    </div>
-                    <div class="explorer_content">
-                        Test
-                    </div>
+                <div class="explorer_content">
                 </div>
+                <script id="explorerItemTemplate" type="text/x-jquery-tmpl">
+                    <div>
+                        <a href="#" onclick="$.UI.Player.Play(JSON.parse(unescape('${ escape(JSON.stringify($data)) }')))">${name}</a>
+                    </div>
+                </script>
             </div>
         </div>
-    </body>
+    </div>
+
+    <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
+    <script type="text/javascript" src="js/explorer.js"></script>
+    <script type="text/javascript" src="js/player.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
 </html>

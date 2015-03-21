@@ -1,0 +1,10 @@
+﻿[
+    {
+        "path": "Foreign/Adele/Adele - Rolling in the deep",
+        "yId": "rYEDA3JcQqw"
+    },
+    { 
+        "path": "Foreign/Akon/Akon - Lonely",
+        "yId": "6EEW-9NDM5k"
+    }
+]

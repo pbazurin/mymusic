@@ -26,6 +26,7 @@ header {
 .logo_text {
     color: #ffffff;
     font-size: 5vh;
+    font-weight: bold;
     margin: 3vw;
 }
 
@@ -57,7 +58,6 @@ header {
     height: 10%;
     width: 100%;
     color: #FFFFFF;
-    font-weight: bold;
     font-size: 3vh;
     line-height: 5vh;
 }
