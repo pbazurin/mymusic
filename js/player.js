@@ -19,7 +19,7 @@ $.UI.Player = {
 
         window.onYouTubePlayerAPIReady = function() {
             pl._player = new YT.Player('ytplayer', {
-                videoId: pl._initialItem ? pl._initialItem.yId : "guXMb7zLblM",
+                videoId: "guXMb7zLblM",
                 playerVars: {
                     rel: 0,
                     showinfo: 0
@@ -30,8 +30,6 @@ $.UI.Player = {
                     onError: pl.OnPlayerError
                 }
             });
-
-            pl._$title.html(pl._initialItem ? pl._initialItem.name : "");
         };
 
         $.isFunction(onSuccess) && onSuccess();
@@ -53,6 +51,12 @@ $.UI.Player = {
     },
 
     OnPlayerReady: function () {
+        var pl = $.UI.Player;
+
+        if (pl._initialItem) {
+            pl.Play(pl._initialItem);
+        }
+
         $.UI.Player._player.playVideo();
     },
     OnPlayerStateChange: function (a) {
