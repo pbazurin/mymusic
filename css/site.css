@@ -12,7 +12,7 @@ body {
 header {
     position: fixed;
     top: 0;
-    height: 7%;
+    height: 4%;
     width: 100%;
     background: linear-gradient(0, #0b6db9 0, #449ddd 64%, #5ba8ef 65%)
 }
