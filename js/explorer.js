@@ -73,7 +73,7 @@ $.UI.Explorer = {
             });
 
             data.sort(function(a, b) {
-                return a.path > b.path ? 1 : -1;
+                return a.path.toUpperCase() > b.path.toUpperCase() ? 1 : -1;
             });
             ex._musicItems = data;
 
@@ -171,7 +171,7 @@ $.UI.Explorer = {
         });
 
         matchedItems.sort(function(a, b) {
-            return a.name > b.name ? 1 : -1;
+            return a.name.toUpperCase() > b.name.toUpperCase() ? 1 : -1;
         });
 
         $explorerContent.empty();
