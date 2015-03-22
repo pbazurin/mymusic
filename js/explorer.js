@@ -2,18 +2,28 @@
 $.UI.Explorer = {
     _musicItems: [],
 
+    _historyPrefix: "?v=",
+    _itemClass: "explorer_content_item",
+    _activeItemClass: "explorer_content_item--active",
+    _activeSearchClass: "explorer_toolbar_search_text--active",
+    _$template: null,
+    _$currentPath: null,
+
     ItemType: {
         Folder: 0,
         MusicItem: 1
     },
 
     Init: function(onSuccess) {
-        var ex = $.UI.Explorer,
-            activeItemClass = "explorer_content_item--active",
-            activeSearchClass = "explorer_toolbar_search_text--active";
+        var ex = $.UI.Explorer;
+
+        ex._$template = $("#explorerItemTemplate");
+        ex._$currentPath = $(".explorer_toolbar_currPath");
+
+        $(window).on("popstate", ex.CheckHistory);
 
         $(document)
-            .on("click", ".explorer_content_item", function() {
+            .on("click", "." + ex._itemClass, function() {
                 var $item = $(this),
                     item = $item.data("item");
 
@@ -21,12 +31,13 @@ $.UI.Explorer = {
                     return;
                 }
 
-                $("." + activeItemClass).removeClass(activeItemClass);
-                $item.addClass(activeItemClass);
+                $("." + ex._activeItemClass).removeClass(ex._activeItemClass);
+                $item.addClass(ex._activeItemClass);
 
+                history.pushState(null, '', ex._historyPrefix + item.yId);
                 $.UI.Player.Play(item);
             })
-            .on("dblclick", ".explorer_content_item", function(e) {
+            .on("dblclick", "." + ex._itemClass, function (e) {
                 var item = $(this).data("item");
 
                 if (item.type !== ex.ItemType.Folder) {
@@ -38,28 +49,17 @@ $.UI.Explorer = {
 
         $(".explorer_toolbar_search_text")
             .on("focus", function() {
-                $(this).addClass(activeSearchClass);
+                $(this).addClass(ex._activeSearchClass);
             })
             .on("blur", function() {
                 var $input = $(this),
-                    currentItem,
-                    currentPath;
+                    currentItem;
 
                 if (!$input.val()) {
-                    $input.removeClass(activeSearchClass);
+                    $input.removeClass(ex._activeSearchClass);
                     currentItem = $.UI.Player.GetCurrentItem();
-                    currentPath = currentItem ? currentItem.path.split("/").slice(0, -1).join("/") : "";
 
-                    ex.GoToFolder(currentPath);
-
-                    $.each($(".explorer_content_item"), function(_, i) {
-                        var $i = $(i);
-
-                        if ($i.data("item").path === currentItem.path) {
-                            $i.addClass(activeItemClass);
-                            return;
-                        }
-                    });
+                    ex.GoToItem(currentItem);
                 }
             })
             .on("keyup", function() {
@@ -77,7 +77,7 @@ $.UI.Explorer = {
             });
             ex._musicItems = data;
 
-            ex.GoToFolder();
+            ex.CheckHistory();
 
             $.isFunction(onSuccess) && onSuccess();
         });
@@ -127,8 +127,34 @@ $.UI.Explorer = {
         allItems = folders.concat(musicItems);
 
         $explorerContent.empty();
-        $("#explorerItemTemplate").tmpl(allItems).appendTo($explorerContent);
-        $(".explorer_toolbar_currPath").html(path);
+        ex._$template.tmpl(allItems).appendTo($explorerContent);
+        ex._$currentPath.html(path);
+    },
+
+    GoToItem: function (item) {
+        var ex = $.UI.Explorer,
+            pl = $.UI.Player,
+            currentPath = item ? item.path.split("/").slice(0, -1).join("/") : "",
+            playerCurrentItem = pl.GetCurrentItem();
+
+        ex.GoToFolder(currentPath);
+
+        if (!item) {
+            return;
+        }
+
+        $.each($("." + ex._itemClass), function (_, i) {
+            var $i = $(i);
+
+            if ($i.data("item").path === item.path) {
+                $i.addClass(ex._activeItemClass);
+                return;
+            }
+        });
+
+        if (!playerCurrentItem || playerCurrentItem.yId !== item.yId) {
+            pl.Play(item);
+        }
     },
 
     Search: function(keyword) {
@@ -149,7 +175,30 @@ $.UI.Explorer = {
         });
 
         $explorerContent.empty();
-        $("#explorerItemTemplate").tmpl(matchedItems).appendTo($explorerContent);
-        $(".explorer_toolbar_currPath").empty();
+        ex._$template.tmpl(matchedItems).appendTo($explorerContent);
+        ex._$currentPath.empty();
+    },
+
+    CheckHistory: function() {
+        var ex = $.UI.Explorer,
+            prefixIndex = document.URL.indexOf(ex._historyPrefix),
+            itemYId,
+            item;
+
+        if (prefixIndex === -1) {
+            ex.GoToFolder();
+            return;
+        }
+
+        itemYId = document.URL.slice(prefixIndex + ex._historyPrefix.length);
+
+        $.each(ex._musicItems, function(_, it) {
+            if (it.yId === itemYId) {
+                item = it;
+                return;
+            }
+        });
+
+        item ? ex.GoToItem(item) : ex.GoToFolder();
     }
 };

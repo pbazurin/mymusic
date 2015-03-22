@@ -2,6 +2,7 @@
 $.UI.Player = {
     _player: null,
     _currentItem: null,
+    _initialItem: null,
 
     Init: function(onSuccess) {
         $('<script>')
@@ -15,7 +16,7 @@ $.UI.Player = {
             var pl = $.UI.Player;
 
             pl._player = new YT.Player('ytplayer', {
-                videoId: "guXMb7zLblM",
+                videoId: pl._initialItem ? pl._initialItem.yId : "guXMb7zLblM",
                 playerVars: {
                     rel: 0,
                     showinfo: 0
@@ -30,16 +31,22 @@ $.UI.Player = {
 
         $.isFunction(onSuccess) && onSuccess();
     },
-    Play: function (item) {
-        $.UI.Player._player.loadVideoById(item.yId);
+    Play: function(item) {
+        var pl = $.UI.Player;
+
+        if (!pl._player) {
+            pl._initialItem = item;
+            return;
+        }
+
+        pl._player.loadVideoById(item.yId);
         $(".player_header").html(item.name);
-        $.UI.Player._currentItem = item;
+        pl._currentItem = item;
     },
     GetCurrentItem: function() {
         return $.UI.Player._currentItem;
     },
 
-    // Events
     OnPlayerReady: function () {
         $.UI.Player._player.playVideo();
     },
@@ -49,7 +56,10 @@ $.UI.Player = {
         }
     },
     OnPlayerError: function () {
-        // TODO: add some google analytics
-        console.error("Player doesn't feel well");
+        if (!ga) {
+            return;
+        }
+
+        ga('send', 'exception', { 'exDescription': "Player doesn't feel well" });
     }
 };
