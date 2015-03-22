@@ -740,8 +740,289 @@
     {
         "path": "-- Foreign --/EIMIC/EIMIC - Sleepwalking",
         "yId": "mJgeTwJQobo"
-    }
+    },
 
+
+    {
+        "path": "-- Foreign --/Flipsyde/Flipsyde - Happy Birthday",
+        "yId": "2bQG8v8kTGs"
+    },
+    {
+        "path": "-- Foreign --/Flipsyde/Flipsyde - Laserbeam",
+        "yId": "E0y_uGJ-318"
+    },
+    {
+        "path": "-- Foreign --/Flipsyde/Flipsyde - Someday",
+        "yId": "e5QEAI_O2IA"
+    },
+
+
+    {
+        "path": "-- Foreign --/Foo Fighters/Foo Fighters - Best Of You",
+        "yId": "h_L4Rixya64"
+    },
+    {
+        "path": "-- Foreign --/Foo Fighters/Foo Fighters - Everlong",
+        "yId": "eBG7P-K-r1Y"
+    },
+    {
+        "path": "-- Foreign --/Foo Fighters/Foo Fighters - Learn To Fly",
+        "yId": "1VQ_3sBZEm0"
+    },
+    {
+        "path": "-- Foreign --/Foo Fighters/Foo Fighters - Walk",
+        "yId": "4PkcfQtibmU"
+    },
+
+
+    {
+        "path": "-- Foreign --/Garbage/Garbage - Androgyny",
+        "yId": "hVs6Fekh0RY"
+    },
+    {
+        "path": "-- Foreign --/Garbage/Garbage - Cherry Lips",
+        "yId": "Cy1LdAaGASw"
+    },
+    {
+        "path": "-- Foreign --/Garbage/Garbage - Milk",
+        "yId": "y14Kp1DitpE"
+    },
+    {
+        "path": "-- Foreign --/Garbage/Garbage - Push It",
+        "yId": "Pmd3UiNfNkA"
+    },
+    {
+        "path": "-- Foreign --/Garbage/Garbage - The World Is Not Enough",
+        "yId": "8C5NLfYdZaE"
+    },
+    {
+        "path": "-- Foreign --/Garbage/Garbage - Why Do You Love Me",
+        "yId": "dcrv9nhH9iY"
+    },
+
+
+    {
+        "path": "-- Foreign --/Godsmack/Godsmack - Awake",
+        "yId": "opU1urLhw50"
+    },
+    {
+        "path": "-- Foreign --/Godsmack/Godsmack - Greed",
+        "yId": "Vgnj2NcMMDY"
+    },
+    {
+        "path": "-- Foreign --/Godsmack/Godsmack - I Stand Alone",
+        "yId": "OYjZK_6i37M"
+    },
+    {
+        "path": "-- Foreign --/Godsmack/Godsmack - Straight Out Of Line",
+        "yId": "z9FmOc0ofGc"
+    },
+
+
+    {
+        "path": "-- Foreign --/Geen Day/Geen Day - Jesus Of Suburbia",
+        "yId": "FNKPYhXmzoE"
+    },
+    {
+        "path": "-- Foreign --/Geen Day/Green Day - 21 Guns",
+        "yId": "r00ikilDxW4"
+    },
+    {
+        "path": "-- Foreign --/Geen Day/Green Day - Boulevard Of Broken Dreams",
+        "yId": "Soa3gO7tL-c"
+    },
+
+
+    {
+        "path": "-- Foreign --/Guano Apes/Guano Apes - Living In A Lie",
+        "yId": "b7P7sTKrHoo"
+    },
+    {
+        "path": "-- Foreign --/Guano Apes/Guano Apes - Lords Of The Boards",
+        "yId": "OyqHQduTBOE"
+    },
+    {
+        "path": "-- Foreign --/Guano Apes/Guano Apes - Open Your Eyes",
+        "yId": "Yry2X-oObds"
+    },
+    {
+        "path": "-- Foreign --/Guano Apes/Guano Apes - Rain",
+        "yId": "T2jFvG9uYhM"
+    },
+
+
+    {
+        "path": "-- Foreign --/Hilary Duff/Hilary Duff - Come Clean",
+        "yId": "FnQbyj27-oY"
+    },
+    {
+        "path": "-- Foreign --/Hilary Duff/Hilary Duff - Fly",
+        "yId": "2EQMVTTW1Sk"
+    },
+    {
+        "path": "-- Foreign --/Hilary Duff/Hilary Duff - So Yesterday",
+        "yId": "lt6PVVr4B04"
+    },
+    {
+        "path": "-- Foreign --/Hilary Duff/Hilary Duff - Wake Up",
+        "yId": "OguSuFENucg"
+    },
+    {
+        "path": "-- Foreign --/Hilary Duff/Hilary Duff - Why Not",
+        "yId": "Yp5FgwS4XT0"
+    },
+
+
+    {
+        "path": "-- Foreign --/HIM/HIM - In Joy And Sorrow",
+        "yId": "FVcfCHmoCvM"
+    },
+    {
+        "path": "-- Foreign --/HIM/HIM - Join Me In Death",
+        "yId": "1V4AscLidWg"
+    },
+    {
+        "path": "-- Foreign --/HIM/HIM - Rip Out Wings Of A Butterfly",
+        "yId": "TfWSYaIUaWY"
+    },
+    {
+        "path": "-- Foreign --/HIM/HIM - The Funeral Of Hearts",
+        "yId": "PMD1k16baVE"
+    },
+    {
+        "path": "-- Foreign --/HIM/HIM - The Sacrament",
+        "yId": "qu4rP0ZIohs"
+    },
+    {
+        "path": "-- Foreign --/HIM/HIM - Wicked Game",
+        "yId": "wjGK-LRqAqI"
+    },
+
+
+    {
+        "path": "-- Foreign --/Inna/Inna - 10 Minutes",
+        "yId": "ci0ccJ_Z7jM"
+    },
+    {
+        "path": "-- Foreign --/Inna/Inna - Hot",
+        "yId": "fF5DP90ult8"
+    },
+    {
+        "path": "-- Foreign --/Inna/Inna - Love",
+        "yId": "04fcgFs-mjA"
+    },
+    {
+        "path": "-- Foreign --/Inna/Inna & Bob Taylor - Deja Vu",
+        "yId": "QRf5MBuAy6w"
+    },
+    {
+        "path": "-- Foreign --/Inna/Inna - Amazing",
+        "yId": "B7fWODqp4kY"
+    },
+
+
+    {
+        "path": "-- Foreign --/James Blunt/James Blunt - I'll Be Your Man",
+        "yId": "IUkLOUNxP8A"
+    },
+    {
+        "path": "-- Foreign --/James Blunt/James Blunt - Wisemen",
+        "yId": "cueB7j4ZGrM"
+    },
+    {
+        "path": "-- Foreign --/James Blunt/James Blunt - Goodbye My Lover",
+        "yId": "wVyggTKDcOE"
+    },
+    {
+        "path": "-- Foreign --/James Blunt/James Blunt - High Traducido",
+        "yId": "Bgbwlliawaw"
+    },
+    {
+        "path": "-- Foreign --/James Blunt/James Blunt - You're Beautiful",
+        "yId": "ehToBz7zhqE"
+    },
+
+
+    {
+        "path": "-- Foreign --/Justin Timberlake/Esmée Denters - Love Dealer ft. Justin Timberlake",
+        "yId": "bO6wG1hNZJw"
+    },
+    {
+        "path": "-- Foreign --/Justin Timberlake/Justin Timberlake - Sexy Back",
+        "yId": "3gOHvDP_vCs"
+    },
+    {
+        "path": "-- Foreign --/Justin Timberlake/Justin Timberlake - Cry Me A River",
+        "yId": "DksSPZTZES0"
+    },
+    {
+        "path": "-- Foreign --/Justin Timberlake/Justin Timberlake - What Goes Around...Comes Around",
+        "yId": "TOrnUquxtwA"
+    },
+
+
+    {
+        "path": "-- Foreign --/Kate Nash/Kate Nash - Do Wah Doo",
+        "yId": "OqV-embx_tA"
+    },
+    {
+        "path": "-- Foreign --/Kate Nash/Kate Nash - Foundations",
+        "yId": "ryH5cga0yUI"
+    },
+
+
+    {
+        "path": "-- Foreign --/Katy Perry/Katy Perry - Hot N Cold",
+        "yId": "kTHNpusq654"
+    },
+    {
+        "path": "-- Foreign --/Katy Perry/Katy Perry - I Kissed A Girl",
+        "yId": "tAp9BKosZXs"
+    },
+    {
+        "path": "-- Foreign --/Katy Perry/Timbaland feat Katy Perry - If We Ever Meet Again",
+        "yId": "KDKva-s_khY"
+    },
+
+
+    {
+        "path": "-- Foreign --/Kid Cudi/David Guetta feat Kid Cudi - Memories",
+        "yId": "5Y3RbJEh6og"
+    },
+    {
+        "path": "-- Foreign --/Kid Cudi/Kid Cudi - Make Her Say ft. Kanye West",
+        "yId": "AmSV2cim0Qg"
+    },
+    {
+        "path": "-- Foreign --/Kid Cudi/Kid Cudi vs. Crookers - Day 'n' Night",
+        "yId": "WSWrepLjTKc"
+    },
+    {
+        "path": "-- Foreign --/Kid Cudi/Kid Cudi - Pursuit Of Happiness",
+        "yId": "7xzU9Qqdqww"
+    },
+
+
+    {
+        "path": "-- Foreign --/Kosheen/Kosheen - Catch",
+        "yId": "McjmZUyhwkE"
+    },
+    {
+        "path": "-- Foreign --/Kosheen/Kosheen - Hungry",
+        "yId": "L0F50i5fsH4"
+    },
+    {
+        "path": "-- Foreign --/Kosheen/Kosheen - Slip and Slide Suicide",
+        "yId": "WWG_lJJNFwY"
+    },
+    {
+        "path": "-- Foreign --/Kosheen/Kosheen - Wasting My Time",
+        "yId": "zY3tlwWECSM"
+    },
+    {
+        "path": "-- Foreign --/Kosheen/Kosheen - All In My Head",
+        "yId": "Nvz-fA_mp0Y"
+    }
 
 
 
