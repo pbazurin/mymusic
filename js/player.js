@@ -3,8 +3,13 @@ $.UI.Player = {
     _player: null,
     _currentItem: null,
     _initialItem: null,
+    _$title: null,
 
-    Init: function(onSuccess) {
+    Init: function (onSuccess) {
+        var pl = $.UI.Player;
+
+        pl._$title = $(".player_header");
+
         $('<script>')
             .attr({
                 "type": "text/javascript",
@@ -13,8 +18,6 @@ $.UI.Player = {
             .appendTo('head');
 
         window.onYouTubePlayerAPIReady = function() {
-            var pl = $.UI.Player;
-
             pl._player = new YT.Player('ytplayer', {
                 videoId: pl._initialItem ? pl._initialItem.yId : "guXMb7zLblM",
                 playerVars: {
@@ -27,6 +30,8 @@ $.UI.Player = {
                     onError: pl.OnPlayerError
                 }
             });
+
+            pl._$title.html(pl._initialItem ? pl._initialItem.name : "");
         };
 
         $.isFunction(onSuccess) && onSuccess();
@@ -40,7 +45,7 @@ $.UI.Player = {
         }
 
         pl._player.loadVideoById(item.yId);
-        $(".player_header").html(item.name);
+        pl._$title.html(item.name);
         pl._currentItem = item;
     },
     GetCurrentItem: function() {
