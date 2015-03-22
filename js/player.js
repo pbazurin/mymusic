@@ -39,7 +39,7 @@ $.UI.Player = {
     Play: function(item) {
         var pl = $.UI.Player;
 
-        if (!pl._player) {
+        if (!pl._player || !pl._player.loadVideoById) {
             pl._initialItem = item;
             return;
         }
