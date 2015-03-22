@@ -1307,6 +1307,10 @@
         "path": "-- Foreign --/Missing Hours/Missing Hours - Machine",
         "yId": "81XZM7Vy4Gs"
     },
+    {
+        "path": "-- Foreign --/-- Other --/Dash Berlin feat. Emma Hewitt - Waiting",
+        "yId": "MSgnf-tBN9s"
+    },
 
 
     {
@@ -1368,7 +1372,332 @@
     {
         "path": "-- Foreign --/Neon Trees/Neon Trees - Animal",
         "yId": "gM7Hlg75Mlo"
+    },
+
+
+    {
+        "path": "-- Foreign --/Nickelback/Nickelback - Far Away",
+        "yId": "j4y-RzVGrHg"
+    },
+    {
+        "path": "-- Foreign --/Nickelback/Nickelback - Photograph",
+        "yId": "T3rXdeOvhNE"
+    },
+    {
+        "path": "-- Foreign --/Nickelback/Nickelback - If Everyone Cared",
+        "yId": "-IUSZyjiYuY"
+    },
+    {
+        "path": "-- Foreign --/Nickelback/Nickelback - Savin' Me",
+        "yId": "_JQiEs32SqQ"
+    },
+    {
+        "path": "-- Foreign --/Nickelback/Nickelback - Someday",
+        "yId": "-VMFdpdDYYA"
+    },
+    {
+        "path": "-- Foreign --/Nickelback/NickleBlack - How You Remind Me",
+        "yId": "1cQh1ccqu8M"
+    },
+    {
+        "path": "-- Foreign --/-- Other --/Chad Kroeger ft. Josey Scott - Hero",
+        "yId": "TmSRMWw8Y_0"
+    },
+
+
+    {
+        "path": "-- Foreign --/No Doubt/No Doubt - Don`t Speak",
+        "yId": "TR3Vdo5etCQ"
+    },
+    {
+        "path": "-- Foreign --/No Doubt/Gwen Stefani - Hollaback Girl",
+        "yId": "Kgjkth6BRRY"
+    },
+    {
+        "path": "-- Foreign --/No Doubt/Gwenstefani - Cool",
+        "yId": "TGwZ7MNtBFU"
+    },
+    {
+        "path": "-- Foreign --/No Doubt/No Doubt - Heybaby Zone",
+        "yId": "wt1YkGO2Ieo"
+    },
+
+
+    {
+        "path": "-- Foreign --/Oasis/Oasis - I'm Outta Time",
+        "yId": "bPm6f1HNzgw"
+    },
+    {
+        "path": "-- Foreign --/Oasis/Oasis - The Shock Of The Lightning",
+        "yId": "mPc2plEHrHA"
+    },
+
+
+    {
+        "path": "-- Foreign --/The Offspring/The Offspring - Pretty Fly",
+        "yId": "nzY2Qcu5i2A"
+    },
+    {
+        "path": "-- Foreign --/The Offspring/The Offspring - The Kids Aren't Alright",
+        "yId": "VrZ4sMRYimw"
+    },
+    {
+        "path": "-- Foreign --/The Offspring/The Offspring - Defy You",
+        "yId": "EkzVHer6B8A"
+    },
+
+
+    {
+        "path": "-- Foreign --/OneRepublic/OneRepublic - Secrets",
+        "yId": "qHm9MG9xw1o"
+    },
+    {
+        "path": "-- Foreign --/OneRepublic/OneRepublic - All The Right Moves",
+        "yId": "qrOeGCJdZe4"
+    },
+    {
+        "path": "-- Foreign --/OneRepublic/OneRepublic - Good Life",
+        "yId": "jZhQOvvV45w"
+    },
+    {
+        "path": "-- Foreign --/OneRepublic/OneRepublic - Stop And Stare",
+        "yId": "HtNS1afUOnE"
+    },
+
+
+    {
+        "path": "-- Foreign --/-- Other --/Ace Of Base - Living In Danger",
+        "yId": "frZ9_ZGGf8M"
+    },
+    {
+        "path": "-- Foreign --/-- Other --/Adrian Lux - Teenage Crime",
+        "yId": "OcQFUWWLY54"
+    },
+    {
+        "path": "-- Foreign --/-- Other --/AFI - Miss Murder",
+        "yId": "jMxU2ToSunY"
+    },
+    {
+        "path": "-- Foreign --/-- Other --/Akcent - Love Stoned",
+        "yId": "db8t_M9REFQ"
+    },
+    {
+        "path": "-- Foreign --/-- Other --/Alexis Jordan - Happiness",
+        "yId": "26jKtELitQE"
+    },
+    {
+        "path": "-- Foreign --/-- Other --/Alice Cooper - Poison",
+        "yId": "Qq4j1LtCdww"
+    },
+    {
+        "path": "-- Foreign --/-- Other --/Aly AJ - Rush",
+        "yId": "TLKiKJ8FYoA"
+    },
+    {
+        "path": "-- Foreign --/-- Other --/Amel Bent - Ma Philosophie",
+        "yId": "D38EUIll1pM"
+    },
+    {
+        "path": "-- Foreign --/-- Other --/Amy MacDonald - This Is The Life",
+        "yId": "iRYvuS9OxdA"
+    },
+    {
+        "path": "-- Foreign --/-- Other --/Andreea Banica ft. Dony - Samba",
+        "yId": "uv8nGq-XMQM"
+    },
+    {
+        "path": "-- Foreign --/-- Other --/Arash - Temptation",
+        "yId": "ZptvR3PpxRg"
+    },
+    {
+        "path": "-- Foreign --/-- Other --/Ashes Divide - The Stone",
+        "yId": "hjQ_xZMybPM"
+    },
+    {
+        "path": "-- Foreign --/-- Other --/Atomic Kitten - The Tide Is High",
+        "yId": "u8CMsQ-p1ls"
+    },
+    {
+        "path": "-- Foreign --/-- Other --/AWOLNATION - Sail",
+        "yId": "tgIqecROs5M"
+    },
+    {
+        "path": "-- Foreign --/-- Other --/Battlefleld 4 - Russian drum and bass (Infiniti night club)",
+        "yId": "CzFdd-2jvns"
+    },
+    {
+        "path": "-- Foreign --/-- Other --/Ben DJ - Me & Myself ft. Sushy",
+        "yId": "NCVbvzzWORQ"
+    },
+    {
+        "path": "-- Foreign --/-- Other --/Benefit - Sex sells",
+        "yId": "-WmeZXs6F2o"
+    },
+    {
+        "path": "-- Foreign --/-- Other --/Billy Talent - Fallen Leaves",
+        "yId": "RPg63uxYwN0"
+    },
+    {
+        "path": "-- Foreign --/-- Other --/Birdy - People Help The People",
+        "yId": "OmLNs6zQIHo"
+    },
+    {
+        "path": "-- Foreign --/-- Other --/blink-182 - Down",
+        "yId": "XrTZT49u0kM"
+    },
+    {
+        "path": "-- Foreign --/-- Other --/Blur - Song 2",
+        "yId": "SSbBvKaM6sk"
+    },
+    {
+        "path": "-- Foreign --/-- Other --/Bobby McFerrin - Don't Worry Be Happy",
+        "yId": "d-diB65scQU"
+    },
+    {
+        "path": "-- Foreign --/-- Other --/Bomfunc MC's - Freestyler",
+        "yId": "ymNFyxvIdaM"
+    },
+    {
+        "path": "-- Foreign --/-- Other --/Bon Iver - Holocene",
+        "yId": "TWcyIpul8OE"
+    },
+    {
+        "path": "-- Foreign --/-- Other --/Bosson - One In A Million",
+        "yId": "AamLl681zS4"
+    },
+    {
+        "path": "-- Foreign --/-- Other --/Bryan Adams - Here I Am",
+        "yId": "G6xr6VKg7sE"
+    },
+    {
+        "path": "-- Foreign --/-- Other --/Bullet For My Valentine - All These Things I Hate",
+        "yId": "BxR3kCK4_fs"
+    },
+    {
+        "path": "-- Foreign --/-- Other --/Busta Rhymes ft. Mariah Carey - I Know What You Want",
+        "yId": "WDaNJW_jEBo"
+    },
+    {
+        "path": "-- Foreign --/-- Other --/Caesars - Jerk It Out",
+        "yId": "w869Avr_fXI"
+    },
+    {
+        "path": "-- Foreign --/-- Other --/Cage The Elephant - In One Ear",
+        "yId": "S0tsm0EhCJM"
+    },
+    {
+        "path": "-- Foreign --/-- Other --/CAPTCHA - Close 2 me",
+        "yId": "DwsoS7GJyyU"
+    },
+    {
+        "path": "-- Foreign --/-- Other --/Carolina Liar - Show Me What I'm Looking For",
+        "yId": "5IqCfxgKZd8"
+    },
+    {
+        "path": "-- Foreign --/-- Other --/Carrie Underwood - Temporary Home",
+        "yId": "LraOiHUltak"
+    },
+    {
+        "path": "-- Foreign --/-- Other --/CeeLo Green - FUCK YOU",
+        "yId": "pc0mxOXbWIU"
+    },
+    {
+        "path": "-- Foreign --/-- Other --/Celentano - Confessa",
+        "yId": "kKfybNLrFUA"
+    },
+    {
+        "path": "-- Foreign --/-- Other --/Celldweller - Switchback",
+        "yId": "hQg4C5l9aPk"
+    },
+    {
+        "path": "-- Foreign --/-- Other --/Chase & Status Feat Plan B - Pieces",
+        "yId": "POV1EGFfjyo"
+    },
+    {
+        "path": "-- Foreign --/-- Other --/Cheryl Cole - Parachute",
+        "yId": "-AWoZmAxKxg"
+    },
+    {
+        "path": "-- Foreign --/-- Other --/Chicane feat. Adam Young - Middle Distance Runner",
+        "yId": "kOqrqhywWAg"
+    },
+    {
+        "path": "-- Foreign --/-- Other --/Chiddy Bang - Opposite Of Adults",
+        "yId": "uavNUg0tRgw"
+    },
+    {
+        "path": "-- Foreign --/-- Other --/Chris Isaak - Baby Did A Bad Bad Thing",
+        "yId": "dPZQ7ZLy3MI"
+    },
+    {
+        "path": "-- Foreign --/-- Other --/Cj Stone - Infinity",
+        "yId": "Pg8UViXsIeI"
+    },
+    {
+        "path": "-- Foreign --/-- Other --/Craig David - Walking Away",
+        "yId": "4lxRRCxfRvI"
+    },
+    {
+        "path": "-- Foreign --/-- Other --/Crazy Town - Batterfly",
+        "yId": "6FEDrU85FLE"
+    },
+    {
+        "path": "-- Foreign --/-- Other --/Crystal Castles (ft. Robert Smith) - Not In Love",
+        "yId": "xsV8TrF4gN0"
+    },
+    {
+        "path": "-- Foreign --/-- Other --/Devlin feat. Yasmin - Runaway",
+        "yId": "Lv5uWbszvB8"
+    },
+    {
+        "path": "-- Foreign --/-- Other --/DJ EARWORM - UNITED STATE OF POP 2009",
+        "yId": "Op6vTxyzUgA"
+    },
+    {
+        "path": "-- Foreign --/-- Other --/Does It Offend You, Yeah - Epic Last Song",
+        "yId": "VBxgZc95Nyg"
+    },
+    {
+        "path": "-- Foreign --/-- Other --/Natasha Bedingfield - Drop Me In The Middle feat Bizzare",
+        "yId": "DyDkZazgE88"
+    },
+    {
+        "path": "-- Foreign --/-- Other --/Drowning Pool - Bodies",
+        "yId": "04F4xlWSFh0"
+    },
+    {
+        "path": "-- Foreign --/-- Other --/Duck Sauce - Barbra Streisand",
+        "yId": "uu_zwdmz0hE"
+    },
+    {
+        "path": "-- Foreign --/-- Other --/Duran Duran - Come Undone",
+        "yId": "9oGxdZGR6kI"
+    },
+    {
+        "path": "-- Foreign --/-- Other --/E Nomine - Das Omen",
+        "yId": "DtM7BuCuEV0"
+    },
+    {
+        "path": "-- Foreign --/-- Other --/Era - Ameno",
+        "yId": "RkZkekS8NQU"
+    },
+    {
+        "path": "-- Foreign --/-- Other --/Far East Movement feat. The Cataracs & Dev - Like A G6",
+        "yId": "w4s6H4ku6ZY"
+    },
+    {
+        "path": "-- Foreign --/-- Other --/Fatboy Slim - Ya Mama",
+        "yId": "EOoSJPuD-dc"
+    },
+    {
+        "path": "-- Foreign --/-- Other --/Flyleaf - All Around Me",
+        "yId": "xN0FFK8JSYE"
+    },
+    {
+        "path": "-- Foreign --/-- Other --/Fort Minor - Where'd You Go",
+        "yId": "m2qwOdndJk8"
     }
+
 
 
 ]
