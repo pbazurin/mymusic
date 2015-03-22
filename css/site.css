@@ -85,7 +85,7 @@ header {
 
 .explorer_toolbar_currPath {
     position: absolute;
-    bottom: 0;
+    bottom: 25px;
     width: 100%;
     color: #ffffff;
     font-size: 1.6vh;
