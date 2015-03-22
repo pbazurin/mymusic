@@ -42,13 +42,15 @@ $.UI.Explorer = {
             })
             .on("blur", function() {
                 var $input = $(this),
-                    currentItem;
+                    currentItem,
+                    currentPath;
 
                 if (!$input.val()) {
                     $input.removeClass(activeSearchClass);
                     currentItem = $.UI.Player.GetCurrentItem();
+                    currentPath = currentItem ? currentItem.path.split("/").slice(0, -1).join("/") : "";
 
-                    ex.GoToFolder(currentItem.path.split("/").slice(0, -1).join("/"));
+                    ex.GoToFolder(currentPath);
 
                     $.each($(".explorer_content_item"), function(_, i) {
                         var $i = $(i);
