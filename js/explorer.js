@@ -135,7 +135,7 @@ $.UI.Explorer = {
             $explorerContent = $(".explorer_content");
 
         $.each(ex._musicItems, function (_, item) {
-            if (keyword && item.name.indexOf(keyword) === -1) {
+            if (keyword && item.name.toUpperCase().indexOf(keyword.toUpperCase()) === -1) {
                 return;
             }
 
