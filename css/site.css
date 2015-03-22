@@ -125,7 +125,6 @@ header {
     width: 100%;
     /*background: #222;*/
     color: #b8b8b8;
-    cursor: pointer;
     font-size: 16px;
     overflow: auto;
 
@@ -139,6 +138,7 @@ header {
 
 .explorer_content_item {
     margin-left: 5px;
+    cursor: pointer;
 }
 .explorer_content_item:hover {
     background: #525252;
