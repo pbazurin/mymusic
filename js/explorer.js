@@ -71,7 +71,7 @@ $.UI.Explorer = {
             });
 
             data.sort(function(a, b) {
-                return a.path > b.path;
+                return a.path > b.path ? 1 : -1;
             });
             ex._musicItems = data;
 
@@ -140,6 +140,10 @@ $.UI.Explorer = {
             }
 
             matchedItems.push(item);
+        });
+
+        matchedItems.sort(function(a, b) {
+            return a.name > b.name ? 1 : -1;
         });
 
         $explorerContent.empty();
