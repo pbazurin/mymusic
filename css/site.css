@@ -123,7 +123,7 @@ header {
     height: 90%;
     max-height: 90%;
     width: 100%;
-    background: #222;
+    /*background: #222;*/
     color: #b8b8b8;
     cursor: pointer;
     font-size: 16px;
@@ -138,6 +138,7 @@ header {
 }
 
 .explorer_content_item {
+    margin-left: 5px;
 }
 .explorer_content_item:hover {
     background: #525252;
