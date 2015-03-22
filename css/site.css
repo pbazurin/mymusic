@@ -89,6 +89,7 @@ header {
     bottom: 0;
     width: 100%;
     color: #ffffff;
+    font-size: 1.6vh;
 }
 
 .explorer_toolbar_search {
