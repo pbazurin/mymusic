@@ -2261,7 +2261,7 @@
     },
     {
         "path": "-- Foreign --/The Pussycat Dolls/The Pussycat Dolls - Don't Cha ft. Busta Rhymes",
-        "yId": "YNSxNsr4wmA"
+        "yId": "9ZyKF3KaK5s"
     },
     {
         "path": "-- Foreign --/The Pussycat Dolls/The Pussycat Dolls ft. Timbaland - Wait A Minute",
