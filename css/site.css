@@ -36,7 +36,7 @@ header {
 
 .mainContainer_box {
     position: absolute;
-    top: 20%;
+    top: 15%;
     left: 5%;
 
     width: 90%;
@@ -105,7 +105,7 @@ header {
 }
 
 .explorer_toolbar_search_text.explorer_toolbar_search_text--active {
-    width: 80%;
+    width: calc(100% - 40px);
     background: #ffffff;
 }
 
