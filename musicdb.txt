@@ -2278,6 +2278,97 @@
     {
         "path": "-- Foreign --/The Pussycat Dolls/The Pussycat Dolls - I Don't Need A Man",
         "yId": "qBsEF7Qx09o"
+    },
+
+
+    {
+        "path": "-- Foreign --/Queen/Queen - Friends Will Be Friends",
+        "yId": "DAQ4sJZ5IsU"
+    },
+    {
+        "path": "-- Foreign --/Queen/Queen - I Want To Break Free",
+        "yId": "f4Mc-NYPHaQ"
+    },
+    {
+        "path": "-- Foreign --/Queen/Queen - Killer Queen",
+        "yId": "2ZBtPf7FOoM"
+    },
+    {
+        "path": "-- Foreign --/Queen/Queen - Love Of My Life",
+        "yId": "T73WhWTawCE"
+    },
+    {
+        "path": "-- Foreign --/Queen/Queen - A Kind Of Magic",
+        "yId": "0p_1QSUsbsM"
+    },
+    {
+        "path": "-- Foreign --/Queen/Queen - The Show Must Go On",
+        "yId": "AHWLVxg8MxA"
+    },
+    {
+        "path": "-- Foreign --/Queen/Queen - Somebody To Love & Tie Your Mother Down",
+        "yId": "pOYyDg_RJVs"
+    },
+    {
+        "path": "-- Foreign --/Queen/Queen - We Will Rock You",
+        "yId": "-tJYN-eG1zk"
+    },
+    {
+        "path": "-- Foreign --/Queen/Queen - We Are The Champions",
+        "yId": "04854XqcfCY"
+    },
+
+
+    {
+        "path": "-- Foreign --/Radiohead/Radiohead - Creep",
+        "yId": "iz8TTCqaILs"
+    },
+    {
+        "path": "-- Foreign --/Radiohead/Radiohead - Fake Plastic Trees",
+        "yId": "n5h0qHwNrHk"
+    },
+    {
+        "path": "-- Foreign --/Radiohead/Radiohead - High & Dry",
+        "yId": "BciOfJsqh7M"
+    },
+    {
+        "path": "-- Foreign --/Radiohead/Radiohead - Karma Police",
+        "yId": "IBH97ma9YiI"
+    },
+    {
+        "path": "-- Foreign --/Radiohead/Radiohead - Last Flowers",
+        "yId": "9_uQzEsSA1A"
+    },
+    {
+        "path": "-- Foreign --/Radiohead/Radiohead - Lotus Flower",
+        "yId": "cfOa1a8hYP8"
+    },
+    {
+        "path": "-- Foreign --/Radiohead/Radiohead - My Iron Lung",
+        "yId": "HtZKBWiVPbI"
+    },
+    {
+        "path": "-- Foreign --/Radiohead/Radiohead - No Surprises",
+        "yId": "u5CVsCnxyXg"
+    },
+    {
+        "path": "-- Foreign --/Radiohead/Radiohead - Reckoner",
+        "yId": "rOoCixFA8OI"
+    },
+    {
+        "path": "-- Foreign --/Radiohead/Radiohead - The Thief",
+        "yId": "AHvM9EhLx4k"
+    },
+    {
+        "path": "-- Foreign --/Radiohead/Radiohead - There, There",
+        "yId": "5u8lglJ5h1I"
+    },
+    {
+        "path": "-- Foreign --/Radiohead/Radiohead - Vanilla Sky",
+        "yId": "HTkf1X6RIPw"
     }
+
+
+
 
 ]
