@@ -1308,7 +1308,7 @@
         "yId": "81XZM7Vy4Gs"
     },
     {
-        "path": "-- Foreign --/-- Other --/Dash Berlin feat. Emma Hewitt - Waiting",
+        "path": "-- Foreign --/Missing Hours/Dash Berlin feat. Emma Hewitt - Waiting",
         "yId": "MSgnf-tBN9s"
     },
 
@@ -1400,7 +1400,7 @@
         "yId": "1cQh1ccqu8M"
     },
     {
-        "path": "-- Foreign --/-- Other --/Chad Kroeger ft. Josey Scott - Hero",
+        "path": "-- Foreign --/Nickelback/Chad Kroeger ft. Josey Scott - Hero",
         "yId": "TmSRMWw8Y_0"
     },
 
@@ -2168,10 +2168,116 @@
     {
         "path": "-- Foreign --/-- Other --/Yves Larock - Rise Up",
         "yId": "zoMYU_nOGNg"
+    },
+    {
+        "path": "-- Foreign --/-- Other --/Coolio - Gangsta's Paradise",
+        "yId": "L8WEmRFZO6c"
+    },
+
+
+    {
+        "path": "-- Foreign --/Papa Roach/Papa Roach - Last Resort",
+        "yId": "l3ucoIrWrsc"
+    },
+    {
+        "path": "-- Foreign --/Papa Roach/Papa Roach - Between Angels And Insects",
+        "yId": "H2jCbXiEQI4"
+    },
+    {
+        "path": "-- Foreign --/Papa Roach/Papa Roach - Forever",
+        "yId": "_bISJ2zi1zQ"
+    },
+    {
+        "path": "-- Foreign --/Papa Roach/Papa Roach - Getting Away With Murder",
+        "yId": "-rdmG0k8S8k"
+    },
+
+
+    {
+        "path": "-- Foreign --/Paramore/Paramore - Decode",
+        "yId": "RvnkAtWcKYg"
+    },
+    {
+        "path": "-- Foreign --/Paramore/Paramore - The Only Exception",
+        "yId": "-J7J_IWUhls"
+    },
+
+
+    {
+        "path": "-- Foreign --/Phantom Planet/Phantom Planet - California",
+        "yId": "wq-S8CIU7VA"
+    },
+    {
+        "path": "-- Foreign --/Phantom Planet/Phantom Planet - Dropped",
+        "yId": "2nckIo3Ikko"
+    },
+
+
+    {
+        "path": "-- Foreign --/P!nk/P!nk - U + Ur Hand",
+        "yId": "YUtHjOvPKT0"
+    },
+    {
+        "path": "-- Foreign --/P!nk/P!nk - F**kin' Perfect",
+        "yId": "ocDlOD1Hw9k"
+    },
+    {
+        "path": "-- Foreign --/P!nk/P!nk - Funhouse",
+        "yId": "Jdjtqu3XK4U"
+    },
+    {
+        "path": "-- Foreign --/P!nk/P!nk - Get The Party Started",
+        "yId": "mW1dbiD_zDk"
+    },
+    {
+        "path": "-- Foreign --/P!nk/P!nk - Raise Your Glass",
+        "yId": "XjVNlG5cZyQ"
+    },
+    {
+        "path": "-- Foreign --/P!nk/P!nk - Sober",
+        "yId": "nJ3ZM8FDBlg"
+    },
+    {
+        "path": "-- Foreign --/P!nk/P!nk - Who Knew",
+        "yId": "NJWIbIe0N90"
+    },
+    {
+        "path": "-- Foreign --/P!nk/P!nk - Family Portrait",
+        "yId": "hSjIz8oQuko"
+    },
+    {
+        "path": "-- Foreign --/P!nk/P!nk - Stupid Girls",
+        "yId": "BR4yQFZK9YM"
+    },
+    {
+        "path": "-- Foreign --/P!nk/P!nk - So What",
+        "yId": "FJfFZqTlWrQ"
+    },
+
+
+    {
+        "path": "-- Foreign --/The Pussycat Dolls/The Pussycat Dolls - Stickwitu",
+        "yId": "K1uNjmxJQUo"
+    },
+    {
+        "path": "-- Foreign --/The Pussycat Dolls/The Pussycat Dolls - Don't Cha ft. Busta Rhymes",
+        "yId": "YNSxNsr4wmA"
+    },
+    {
+        "path": "-- Foreign --/The Pussycat Dolls/The Pussycat Dolls ft. Timbaland - Wait A Minute",
+        "yId": "iWyvMerss4w"
+    },
+    {
+        "path": "-- Foreign --/The Pussycat Dolls/The Pussycat Dolls - Beep ft. will.i.am",
+        "yId": "1r9ghI7YcL0"
+    },
+    {
+        "path": "-- Foreign --/The Pussycat Dolls/The Pussycat Dolls - Buttons ft. Snoop Dogg",
+        "yId": "VCLxJd1d84s"
+    },
+    {
+        "path": "-- Foreign --/The Pussycat Dolls/The Pussycat Dolls - I Don't Need A Man",
+        "yId": "qBsEF7Qx09o"
     }
-
-
-
-
 
 ]

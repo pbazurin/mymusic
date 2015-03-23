@@ -66,7 +66,7 @@ $.UI.Explorer = {
                 ex.Search($(this).val());
             });
 
-        $.getJSON("musicdb.txt", function(data) {
+        $.getJSON("musicdb.min.txt", function(data) {
             $.each(data, function(_, item) {
                 item.name = item.path.split('/').pop();
                 item.type = ex.ItemType.MusicItem;
