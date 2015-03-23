@@ -17,6 +17,11 @@ header {
     background: linear-gradient(0, #0b6db9 0, #449ddd 64%, #5ba8ef 65%)
 }
 
+.icon {
+    display: inline-block;
+    background-image: url("../img/sprites.png");
+}
+
 .logo {
     margin-left: 35%;
     max-height: 100%;
@@ -99,6 +104,7 @@ header {
 }
 
 .explorer_toolbar_search_text {
+    height: 18px;
     width: 20%;
     background: #b8b8b8;
     transition: all 0.3s ease;
@@ -110,13 +116,10 @@ header {
 }
 
 .explorer_toolbar_search_icon {
-    display: inline-block;
     width: 32px;
     height: 32px;
     vertical-align: middle;
-    background-repeat: no-repeat;
-    background-image: url("../img/search.png");
-    background-size: cover;
+    background-position: -90px 0;
 }
 
 .explorer_content {
@@ -152,17 +155,15 @@ header {
 }
 
 .explorer_content_item_icon {
-    display: inline-block;
     width: 32px;
     height: 32px;
     vertical-align: middle;
-    background-repeat: no-repeat;
 }
 
 .folderIcon {
-    background-image: url("../img/folder.png")
+    background-position: 0 0;
 }
 
 .musicItemIcon {
-    background-image: url("../img/musicItem.png")
+    background-position: 0 -40px;
 }

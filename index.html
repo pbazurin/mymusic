@@ -38,7 +38,7 @@
                         <div class="explorer_toolbar_currPath"></div>
                         <div class="explorer_toolbar_search">
                             <input type="text" class="explorer_toolbar_search_text" />
-                            <i type="text" class="explorer_toolbar_search_icon"></i>
+                            <i class="icon explorer_toolbar_search_icon"></i>
                         </div>
                     </div>
 
@@ -56,12 +56,12 @@
             <div class="explorer_content_item" data-item="${JSON.stringify($data)}">
                 {{if type === $.UI.Explorer.ItemType.Folder}}
 
-                <i class="explorer_content_item_icon folderIcon"></i>
+                <i class="icon explorer_content_item_icon folderIcon"></i>
                 <span class="explorer_content_item_text">${name}</span>
 
                 {{else}}
 
-                <i class="explorer_content_item_icon musicItemIcon"></i>
+                <i class="icon explorer_content_item_icon musicItemIcon"></i>
                 <span class="explorer_content_item_text">${name}</span>
 
                 {{/if}}
