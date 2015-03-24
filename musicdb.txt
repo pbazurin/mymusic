@@ -613,6 +613,10 @@
         "path": "-- Foreign --/Coldplay/Coldplay - Yellow",
         "yId": "yKNxeF4KMsY"
     },
+    {
+        "path": "-- Foreign --/Coldplay/Coldplay - Princess Of China ft. Rihanna",
+        "yId": "1Uw6ZkbsAH8"
+    },
 
 
     {
@@ -2366,9 +2370,381 @@
     {
         "path": "-- Foreign --/Radiohead/Radiohead - Vanilla Sky",
         "yId": "HTkf1X6RIPw"
+    },
+
+
+    {
+        "path": "-- Foreign --/Rammstein/Rammstein - Das Model",
+        "yId": "r7C6W0M5ME0"
+    },
+    {
+        "path": "-- Foreign --/Rammstein/Rammstein - Du Hast",
+        "yId": "KzGKsXPBILw"
+    },
+    {
+        "path": "-- Foreign --/Rammstein/Rammstein - Du riecht so goot",
+        "yId": "Gmn4aNGr5E8"
+    },
+    {
+        "path": "-- Foreign --/Rammstein/Rammstein - Engel",
+        "yId": "LnHgqTbdgns"
+    },
+    {
+        "path": "-- Foreign --/Rammstein/Rammstein - Feuer frei",
+        "yId": "_ARCuTlg-Y8"
+    },
+    {
+        "path": "-- Foreign --/Rammstein/Rammstein - Ich Will",
+        "yId": "f4K6ZxDwi34"
+    },
+    {
+        "path": "-- Foreign --/Rammstein/Rammstein - Rammstein",
+        "yId": "VmaCeEmKK7k"
+    },
+    {
+        "path": "-- Foreign --/Rammstein/Rammstein - Stripped",
+        "yId": "uPs8L6SbGqM"
+    },
+    {
+        "path": "-- Foreign --/Rammstein/Rammstein - Amerika",
+        "yId": "fw9F0lhC09E"
+    },
+    {
+        "path": "-- Foreign --/Rammstein/Rammstein - Mutter",
+        "yId": "yvePEzdMI-M"
+    },
+
+
+    {
+        "path": "-- Foreign --/Rasmus/Lauri - Heavy",
+        "yId": "y6NGk0y2u5w"
+    },
+    {
+        "path": "-- Foreign --/Rasmus/Rasmus - Livin' A World Without You",
+        "yId": "lNKTWyU_0c4"
+    },
+    {
+        "path": "-- Foreign --/Rasmus/The Rasmus - First Day Of My Life",
+        "yId": "BU8u0yFxMYU"
+    },
+    {
+        "path": "-- Foreign --/Rasmus/The Rasmus - Guilty",
+        "yId": "azQw49SamvM"
+    },
+    {
+        "path": "-- Foreign --/Rasmus/The Rasmus - No Fear",
+        "yId": "qMYxkh224Tg"
+    },
+
+
+    {
+        "path": "-- Foreign --/Red Hot Chili Peppers/Red Hot Chili Peppers - Californication",
+        "yId": "YlUKcNNmywk"
+    },
+    {
+        "path": "-- Foreign --/Red Hot Chili Peppers/Red Hot Chili Peppers - Otherside",
+        "yId": "rn_YodiJO6k"
+    },
+
+
+    {
+        "path": "-- Foreign --/Rihanna/Nicki Minaj feat. Rihanna - Fly",
+        "yId": "3n71KUiWn1I"
+    },
+    {
+        "path": "-- Foreign --/Rihanna/Rihanna - Umbrella ft. JAY-Z",
+        "yId": "CvBfHwUxHIk"
+    },
+    {
+        "path": "-- Foreign --/Rihanna/Rihanna - Don't Stop The Music",
+        "yId": "yd8jh9QYfEs"
+    },
+    {
+        "path": "-- Foreign --/Rihanna/Rihanna - If It's Lovin' That You Want",
+        "yId": "hD5MRBzY1uM"
+    },
+    {
+        "path": "-- Foreign --/Rihanna/Rihanna - Pon de replay",
+        "yId": "oEauWw9ZGrA"
+    },
+    {
+        "path": "-- Foreign --/Rihanna/Rihanna - S&M",
+        "yId": "KdS6HFQ_LUc"
+    },
+    {
+        "path": "-- Foreign --/Rihanna/Rihanna - S.O.S.",
+        "yId": "IXmF4GbA86E"
+    },
+    {
+        "path": "-- Foreign --/Rihanna/Rihanna - Unfaithful",
+        "yId": "rp4UwPZfRis"
+    },
+    {
+        "path": "-- Foreign --/Rihanna/Rihanna - We Found Love",
+        "yId": "tg00YEETFzg"
+    },
+    {
+        "path": "-- Foreign --/Rihanna/Rihanna feat Young Jeezy - Hard",
+        "yId": "Xcwd_Nz6Zog"
+    },
+
+
+    {
+        "path": "-- Foreign --/Santana/Santana - Smooth (feat. Rob Thomas)",
+        "yId": "6Whgn_iE5uc"
+    },
+    {
+        "path": "-- Foreign --/Santana/Santana, Everlast - Put Your Lights On",
+        "yId": "KCBS5EtszYI"
+    },
+
+
+    {
+        "path": "-- Foreign --/Scorpions/Scorpions - Wind of Change",
+        "yId": "n4RjJKxsamQ"
+    },
+    {
+        "path": "-- Foreign --/Scorpions/Scorpions - Send Me An Angel",
+        "yId": "1UUYjd2rjsE"
+    },
+    {
+        "path": "-- Foreign --/Scorpions/Scorpions - Still Loving You",
+        "yId": "mu2sc-6qvhg"
+    },
+
+
+    {
+        "path": "-- Foreign --/Shakira/Shakira - Loca ft. Dizzee Rascal",
+        "yId": "l7XYYpF1UUg"
+    },
+    {
+        "path": "-- Foreign --/Shakira/Shakira - Did It Again",
+        "yId": "igcsNG4aruA"
+    },
+    {
+        "path": "-- Foreign --/Shakira/Shakira - Don't bother",
+        "yId": "MjRRQdnOR-A"
+    },
+    {
+        "path": "-- Foreign --/Shakira/Shakira - Loba",
+        "yId": "C7ssrLSheg4"
+    },
+    {
+        "path": "-- Foreign --/Shakira/Shakira - The One",
+        "yId": "ZTZs5iffrvc"
+    },
+    {
+        "path": "-- Foreign --/Shakira/Shakira - Underneath Your Clothes",
+        "yId": "uwBwKcQ1k84"
+    },
+    {
+        "path": "-- Foreign --/Shakira/Shakira - Whenever Wherever",
+        "yId": "weRHyjj34ZE"
+    },
+    {
+        "path": "-- Foreign --/Shakira/Shakira feat. Pitbull - Rabiosa",
+        "yId": "a5irTX82olg"
+    },
+    {
+        "path": "-- Foreign --/Shakira/Shakira - Hips Don't Lie ft. Wyclef Jean",
+        "yId": "DUT5rEU6pqM"
+    },
+    {
+        "path": "-- Foreign --/Shakira/Shakira - Sale el Sol",
+        "yId": "mqqLoUcLX5I"
+    },
+
+
+    {
+        "path": "-- Foreign --/System Of A Down/Serj Tankian - Borders Are",
+        "yId": "k40su7eHgIs"
+    },
+    {
+        "path": "-- Foreign --/System Of A Down/Serj Tankian - Empty Walls",
+        "yId": "-CxKA1uETxE"
+    },
+    {
+        "path": "-- Foreign --/System Of A Down/System Of A Down - Aerials",
+        "yId": "L-iepu3EtyE"
+    },
+    {
+        "path": "-- Foreign --/System Of A Down/System Of A Down - B.Y.O.B",
+        "yId": "zUzd9KyIDrM"
+    },
+    {
+        "path": "-- Foreign --/System Of A Down/System Of A Down - Boom!",
+        "yId": "bE2r7r7VVic"
+    },
+    {
+        "path": "-- Foreign --/System Of A Down/System Of A Down - Chop Suey",
+        "yId": "CSvFpBOe8eY"
+    },
+    {
+        "path": "-- Foreign --/System Of A Down/System Of A Down - Lonely day",
+        "yId": "DnGdoEa1tPg"
+    },
+    {
+        "path": "-- Foreign --/System Of A Down/System Of A Down - Metro",
+        "yId": "j4JGmpnqyHc"
+    },
+    {
+        "path": "-- Foreign --/System Of A Down/System Of A Down - Question!",
+        "yId": "ENBv2i88g6Y"
+    },
+    {
+        "path": "-- Foreign --/System Of A Down/System Of A Down - Spiders",
+        "yId": "SqZNMvIEHhs"
+    },
+    {
+        "path": "-- Foreign --/System Of A Down/System Of A Down - Suggestions",
+        "yId": "t_m0ArO0CcI"
+    },
+    {
+        "path": "-- Foreign --/System Of A Down/System Of A Down - Toxicity",
+        "yId": "iywaBOMvYLI"
+    },
+
+
+    {
+        "path": "-- Foreign --/The Cardigans/The Cardigans - Erase Rewind",
+        "yId": "6I4ezGXVx84"
+    },
+    {
+        "path": "-- Foreign --/The Cardigans/The Cardigans - Lovefool",
+        "yId": "bUIElvJRyNU"
+    },
+    {
+        "path": "-- Foreign --/The Cardigans/The Cardigans - My Favourite Game",
+        "yId": "Qq-I4orlEhE"
+    },
+
+
+    {
+        "path": "-- Foreign --/The Chemical Brothers/The Chemical Brothers - Believe",
+        "yId": "18m95OSKD-c"
+    },
+    {
+        "path": "-- Foreign --/The Chemical Brothers/The Chemical Brothers - Galvanise",
+        "yId": "Xu3FTEmN-eg"
+    },
+    {
+        "path": "-- Foreign --/The Chemical Brothers/The Chemical Brothers - Hey Boy Hey Girl",
+        "yId": "tpKCqp9CALQ"
+    },
+
+
+    {
+        "path": "-- Foreign --/The Killers/The Killers - Human",
+        "yId": "RIZdjT1472Y"
+    },
+    {
+        "path": "-- Foreign --/The Killers/The Killers - Jenny Was A Friend Of Mine",
+        "yId": "8W6o0cF9Qng"
+    },
+    {
+        "path": "-- Foreign --/The Killers/The Killers - Mr. Brightside",
+        "yId": "gGdGFtwCNBE"
+    },
+    {
+        "path": "-- Foreign --/The Killers/The Killers - Read My Mind",
+        "yId": "zc8hbSM1zVo"
+    },
+    {
+        "path": "-- Foreign --/The Killers/The Killers - Somebody Told Me",
+        "yId": "Y5fBdpreJiU"
+    },
+
+
+    {
+        "path": "-- Foreign --/The Prodigy/The Prodigy - Smack My Bitch Up",
+        "yId": "ZKLSmHqXhzA"
+    },
+    {
+        "path": "-- Foreign --/The Prodigy/The Prodigy - Voodoo People (Pendulum Remix)",
+        "yId": "XQEBzauVIlA"
+    },
+
+
+    {
+        "path": "-- Foreign --/The Qemist/The Qemist - Dem Na Like Me",
+        "yId": "ee7A9OK_WVI"
+    },
+    {
+        "path": "-- Foreign --/The Qemist/The Qemists - Hurt Less",
+        "yId": "WCZTEYg3E8k"
+    },
+    {
+        "path": "-- Foreign --/The Qemist/The Qemists - S.W.A.G.",
+        "yId": "1krmAcCdZ_Y"
+    },
+    {
+        "path": "-- Foreign --/The Qemist/The Qemists - Stompbox (Spor Remix)",
+        "yId": "TPtv-wUIISc"
+    },
+
+
+    {
+        "path": "-- Foreign --/Theory Of A Deadman/Theory Of A Deadman - Bitch Came Back",
+        "yId": "uR4WFPa6xuI"
+    },
+    {
+        "path": "-- Foreign --/Theory Of A Deadman/Theory Of A Deadman - Lowlife",
+        "yId": "4lxINyZxbgU"
+    },
+
+
+    {
+        "path": "-- Foreign --/Tiesto/Dj Tiesto & Sneaky Sound System - I Will Be Here",
+        "yId": "RpMG9EHTB3I"
+    },
+    {
+        "path": "-- Foreign --/Tiesto/Tiesto feat. Nelly Furtado - Who Wants To Be Alone",
+        "yId": "zVnx6BH4csU"
+    },
+
+
+    {
+        "path": "-- Foreign --/Timbaland/Timbaland feat Keri Hilson & DOE - The Way I Are",
+        "yId": "U5rLz5AZBIA"
+    },
+    {
+        "path": "-- Foreign --/Timbaland/Timbaland feat. One Republic - Apologizek",
+        "yId": "ePyRrb2-fzs"
+    },
+
+
+    {
+        "path": "-- Foreign --/Train/Train - Hey Soul Sister",
+        "yId": "kVpv8-5XWOI"
+    },
+    {
+        "path": "-- Foreign --/Train/Train - Shake Up Christmas",
+        "yId": "J-8VCL4uSUc"
+    },
+
+
+    {
+        "path": "-- Foreign --/Within Temptation/Within Temptation - Angels",
+        "yId": "4ifTjdKrTPw"
+    },
+    {
+        "path": "-- Foreign --/Within Temptation/Within Temptation - Ice Queen",
+        "yId": "qmLIE6ULtyU"
+    },
+    {
+        "path": "-- Foreign --/Within Temptation/Within Temptation - Memories",
+        "yId": "gsQIOgkZt68"
+    },
+    {
+        "path": "-- Foreign --/Within Temptation/Within Temptation - Mother Earth",
+        "yId": "reGlno9aUpw"
+    },
+    {
+        "path": "-- Foreign --/Within Temptation/Within Temptation - Running Up That Hill",
+        "yId": "BE1zN61AHy4"
+    },
+    {
+        "path": "-- Foreign --/Within Temptation/Within Temptation - The Other Half Of Me",
+        "yId": "zVPEu13QYdY"
     }
-
-
-
-
 ]
