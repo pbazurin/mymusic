@@ -23,13 +23,13 @@ header {
 }
 
 .logo {
-    margin-left: 35%;
+    margin-left: 5%;
     max-height: 100%;
     max-width: 100%;
 }
 
 .logo_text {
-    color: #ffffff;
+    color: #1b1b1b;
     font-size: 5vh;
     margin: 1vw;
 }
