@@ -2181,6 +2181,10 @@
         "path": "-- Foreign --/-- Other --/Gipsy Kings - Volare",
         "yId": "MVV7cAiN5lM"
     },
+    {
+        "path": "-- Foreign --/-- Other --/Jewel - Standing Still",
+        "yId": "W3WMMwlHgZI"
+    },
 
 
     {
@@ -2800,6 +2804,202 @@
     {
         "path": "-- From Films --/The Phantom Of The Opera - Theme Song",
         "yId": "-JaeBxYCI9k"
+    },
+
+
+    {
+        "path": "-- AMV --/Berserk/Berserk - Dragula - Remix",
+        "yId": "Qh3F-aOLmHQ"
+    },
+    {
+        "path": "-- AMV --/Berserk/Berserk - Marilyn Manson - Sweet Dreams",
+        "yId": "SYmry7SlN58"
+    },
+
+
+    {
+        "path": "-- AMV --/Cowboy Bebop/Cowboy Bebop - Blur - Song 2",
+        "yId": "Znhm7qyK6go"
+    },
+    {
+        "path": "-- AMV --/Cowboy Bebop/Cowboy Bebop - BSB - Larger than life",
+        "yId": "5d3PAoH0KY4"
+    },
+    {
+        "path": "-- AMV --/Cowboy Bebop/Cowboy Bebop - Kansas - Dust in the Wind",
+        "yId": "GgAbzdMHNc4"
+    },
+    {
+        "path": "-- AMV --/Cowboy Bebop/Cowboy Bebop - Joshua and Servant Singers - Cells",
+        "yId": "QEJbRlCbm8E"
+    },
+    {
+        "path": "-- AMV --/Cowboy Bebop/Cowboy Bebop - Joshua and Servant Singers - Cells",
+        "yId": "QEJbRlCbm8E"
+    },
+    {
+        "path": "-- AMV --/Cowboy Bebop/Cowboy Bebop - Linkin Park - In The End",
+        "yId": "UzlWVl_5lWs"
+    },
+    {
+        "path": "-- AMV --/Cowboy Bebop/Cowboy Bebop - Live Free or Die Hard trailer",
+        "yId": "Uzrdmai9oDA"
+    },
+    {
+        "path": "-- AMV --/Cowboy Bebop/Cowboy Bebop - Воплі Відоплясова - Музіка",
+        "yId": "FNR1YSz6VCQ"
+    },
+    {
+        "path": "-- AMV --/Cowboy Bebop/Cowboy Bebop - Nightwish - The Kinslayer",
+        "yId": "Mig_99LDoxU"
+    },
+    {
+        "path": "-- AMV --/Cowboy Bebop/Cowboy Bebop - Call me Call me",
+        "yId": "nPbBhvv6GI8"
+    },
+    {
+        "path": "-- AMV --/Cowboy Bebop/Cowboy Bebop - Rammstein - Feuer Frei",
+        "yId": "SweHqYf9lh0"
+    },
+    {
+        "path": "-- AMV --/Cowboy Bebop/Cowboy Bebop AMV - Stress",
+        "yId": "p7EONScLrHg"
+    },
+
+
+    {
+        "path": "-- AMV --/Evangelion/Evangelion - Na Dachu",
+        "yId": "C-MXQrq5AI0"
+    },
+    {
+        "path": "-- AMV --/Evangelion/Evangelion - Rammstein - Engel",
+        "yId": "pJu87csH2ZU"
+    },
+    {
+        "path": "-- AMV --/Evangelion/Evangelion - Top Gun Anthem",
+        "yId": "UTL3RVLm--0"
+    },
+
+
+    {
+        "path": "-- AMV --/Final Fantasy X/Final Fantasy X - Innocence",
+        "yId": "lYHPxwdNzTI"
+    },
+    {
+        "path": "-- AMV --/Final Fantasy X/Final Fantasy X - Mtv",
+        "yId": "7_gDN9tzO7w"
+    },
+
+
+    {
+        "path": "-- AMV --/FLCL/FLCL - Haru Mamburu",
+        "yId": "HomuRy9-ZlE"
+    },
+    {
+        "path": "-- AMV --/FLCL/FLCL - My Iron Lung",
+        "yId": "GtQoY_inUuw"
+    },
+
+
+    {
+        "path": "-- AMV --/Ghost in the Shell/Ghost in the Shell - Bjork - All is Full of Love",
+        "yId": "I7dFANLSupY"
+    },
+    {
+        "path": "-- AMV --/Ghost in the Shell/Ghost in the Shell - Parade",
+        "yId": "3IGTiFuDjTI"
+    },
+    {
+        "path": "-- AMV --/Ghost in the Shell/Ghost in the Shell - The Fall",
+        "yId": "J_g1GcO2D_g"
+    },
+
+
+    {
+        "path": "-- AMV --/Hellsing/Hellsing - Король и Шут - Некромант",
+        "yId": "chrzlUlpjAc"
+    },
+    {
+        "path": "-- AMV --/Hellsing/Hellsing - Сплин - Выхода нет",
+        "yId": "lCJU-GB_BGU"
+    },
+    {
+        "path": "-- AMV --/Hellsing/Hellsing - Slayer - Bloodline",
+        "yId": "2_wn8RgGB1o"
+    },
+    {
+        "path": "-- AMV --/Hellsing/Hellsing - Union Underground - Turn Me on Mr. Dead Man",
+        "yId": "fFfhY1UjY38"
+    },
+
+
+    {
+        "path": "-- AMV --/Vampire Hunter D/Vampire Hunter D - Blood And Iron",
+        "yId": "tsj6AkTvAa8"
+    },
+    {
+        "path": "-- AMV --/Vampire Hunter D/Vampire Hunter D - Das Omen",
+        "yId": "JmIofME2004"
+    },
+
+
+    {
+        "path": "-- AMV --/Wolf's Rain/Wolf's Rain - 5nizza",
+        "yId": "kX1JnDTbJgA"
+    },
+    {
+        "path": "-- AMV --/Wolf's Rain/Wolf's Rain - Can You Feel The Love Tonight",
+        "yId": "KEjKOM2tHME"
+    },
+    {
+        "path": "-- AMV --/Wolf's Rain/Wolf's Rain - Can't You Trip Like I Do",
+        "yId": "3Ggqpt1M8zM"
+    },
+    {
+        "path": "-- AMV --/Wolf's Rain/Wolf's Rain - Premonition Studios - Searching",
+        "yId": "WSoLTw103os"
+    },
+    {
+        "path": "-- AMV --/Wolf's Rain/Wolf's Rain - Кино - Звезда по имени Солнце",
+        "yId": "6-otjcT3HVM"
+    },
+
+
+    {
+        "path": "-- AMV --/-- Other --/Kenshin - Newbie",
+        "yId": "uxvU5u8ZogI"
+    },
+    {
+        "path": "-- AMV --/-- Other --/Blood the Last Vampire - Apocalyptica - Path",
+        "yId": "SYmry7SlN58"
+    },
+    {
+        "path": "-- AMV --/-- Other --/El Hazard - Hubba Hubba Zot Zot",
+        "yId": "OIM2dV9R7fA"
+    },
+    {
+        "path": "-- AMV --/-- Other --/Weird Al Yankovich - The Anime Polka",
+        "yId": "vWxs8jGJPww"
+    },
+    {
+        "path": "-- AMV --/-- Other --/Kimi ga Nozomu Eien - SoaD - Lonely day",
+        "yId": "eqiUVgupwbI"
+    },
+    {
+        "path": "-- AMV --/-- Other --/Princess Mononoke - Loreena McKennit - Mummers Dance",
+        "yId": "UXpD8PPEBwU"
+    },
+    {
+        "path": "-- AMV --/-- Other --/Sappy Self - Indulgence",
+        "yId": "ivJgwCvvDYk"
+    },
+    {
+        "path": "-- AMV --/-- Other --/Trigun - Танці",
+        "yId": "0A4LEKfA8QQ"
+    },
+    {
+        "path": "-- AMV --/-- Other --/Worlds Unbroken",
+        "yId": "pR9Dg3J4Ba0"
     },
 
 
