@@ -2858,7 +2858,7 @@
         "yId": "SweHqYf9lh0"
     },
     {
-        "path": "-- AMV --/Cowboy Bebop/Cowboy Bebop AMV - Stress",
+        "path": "-- AMV --/Cowboy Bebop/Cowboy Bebop - Stress",
         "yId": "p7EONScLrHg"
     },
 
