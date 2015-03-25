@@ -2177,6 +2177,10 @@
         "path": "-- Foreign --/-- Other --/Coolio - Gangsta's Paradise",
         "yId": "L8WEmRFZO6c"
     },
+    {
+        "path": "-- Foreign --/-- Other --/Gipsy Kings - Volare",
+        "yId": "MVV7cAiN5lM"
+    },
 
 
     {
@@ -2746,5 +2750,61 @@
     {
         "path": "-- Foreign --/Within Temptation/Within Temptation - The Other Half Of Me",
         "yId": "zVPEu13QYdY"
+    },
+
+
+    {
+        "path": "-- From Films --/Celine Dion - My Heart Will Go On (Titanic)",
+        "yId": "FHG2oizTlpY"
+    },
+    {
+        "path": "-- From Films --/The Rembrandts - I'll Be There For You (Friends Series OST)",
+        "yId": "Sx-Z_o_ZOuQ"
+    },
+    {
+        "path": "-- From Films --/Sting - Shape Of My Heart (Leon)",
+        "yId": "G7R0l9BMsQo"
+    },
+    {
+        "path": "-- From Films --/Ennino Morricone - Chi Mai (Le Professionnel)",
+        "yId": "9DSzGQVTTRs"
+    },
+    {
+        "path": "-- From Films --/Francis Lai - Fantasia En La Nieve (Love Story)",
+        "yId": "WTSc4hBdCd0"
+    },
+    {
+        "path": "-- From Films --/Francis Lai - Fantasia En La Nieve (Love Story)",
+        "yId": "BPU4JryNWqQ"
+    },
+    {
+        "path": "-- From Films --/Nino Rota - The Godfather Theme (The Godfather)",
+        "yId": "zBw8vUdtH2A"
+    },
+    {
+        "path": "-- From Films --/Requiem For A Dream",
+        "yId": "yTN9jn8_FZ0"
+    },
+    {
+        "path": "-- From Films --/Лигалайз - Сволочи",
+        "yId": "PrDuVUC3cuQ"
+    },
+    {
+        "path": "-- From Films --/Taxi",
+        "yId": "i8ITGzgccn0"
+    },
+    {
+        "path": "-- From Films --/The Phantom Of The Opera - Theme Song",
+        "yId": "-JaeBxYCI9k"
+    },
+    {
+        "path": "-- From Films --/The Phantom Of The Opera - Theme Song",
+        "yId": "-JaeBxYCI9k"
+    },
+
+
+    {
+        "path": "-- Наше --/-- Остальное --/Браво - Любите, девушки",
+        "yId": "qvyLSXGwoMw"
     }
 ]
