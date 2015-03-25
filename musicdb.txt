@@ -2834,10 +2834,6 @@
         "yId": "QEJbRlCbm8E"
     },
     {
-        "path": "-- AMV --/Cowboy Bebop/Cowboy Bebop - Joshua and Servant Singers - Cells",
-        "yId": "QEJbRlCbm8E"
-    },
-    {
         "path": "-- AMV --/Cowboy Bebop/Cowboy Bebop - Linkin Park - In The End",
         "yId": "UzlWVl_5lWs"
     },
