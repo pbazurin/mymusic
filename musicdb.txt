@@ -3000,6 +3000,147 @@
 
 
     {
+        "path": "-- Наше --/Бумбокс/Бумбокс - Вахтерам",
+        "yId": "DNltnu4hLmw"
+    },
+    {
+        "path": "-- Наше --/Бумбокс/Бумбокс - Квіти у волоссі",
+        "yId": "V8Ia-s2F9jY"
+    },
+    {
+        "path": "-- Наше --/Бумбокс/Бумбокс - Ким ми були",
+        "yId": "vX33ndvS9SE"
+    },
+    {
+        "path": "-- Наше --/Бумбокс/Бумбокс - Супер-пупер",
+        "yId": "-XJhghP7q7E"
+    },
+    {
+        "path": "-- Наше --/Бумбокс/Бумбокс - E-mail",
+        "yId": "QidQvxZcr7o"
+    },
+    {
+        "path": "-- Наше --/Бумбокс/Бумбокс - Бобік",
+        "yId": "aGbbRgJ7CJ0"
+    },
+    {
+        "path": "-- Наше --/Бумбокс/Бумбокс - Тримай",
+        "yId": "4F-Y51aGKU8"
+    },
+    {
+        "path": "-- Наше --/Бумбокс/Бумбокс - За туманом",
+        "yId": "e2ORaRNCHPI"
+    },
+
+
+    {
+        "path": "-- Наше --/Ирэна Карпа/Дима Корс и Ірена Карпа - Забывай",
+        "yId": "zO4mqP7xAZM"
+    },
+    {
+        "path": "-- Наше --/Ирэна Карпа/Ірена Карпа - Дивина",
+        "yId": "8_Aj6SoZ0pI"
+    },
+    {
+        "path": "-- Наше --/Ирэна Карпа/Ірена Карпа - Sex",
+        "yId": "kcHn7VF27Is"
+    },
+
+
+    {
+        "path": "-- Наше --/Лама/Лама - Моє Серце",
+        "yId": "KgK6lCa9wf4"
+    },
+    {
+        "path": "-- Наше --/Лама/Лама - Тримай",
+        "yId": "KgK6lCa9wf4"
+    },
+    {
+        "path": "-- Наше --/Лама/Лама - Мені Так Треба",
+        "yId": "KgK6lCa9wf4"
+    },
+
+
+    {
+        "path": "-- Наше --/Лигалайз/Лигалайз - Будущие Мамы",
+        "yId": "fNOyqQkzf0Y"
+    },
+    {
+        "path": "-- Наше --/Лигалайз/Лигалайз - Стресс",
+        "yId": "fgSM2dtTCsk"
+    },
+
+
+    {
+        "path": "-- Наше --/Mad Heads/Mad Heads - Надія Є",
+        "yId": "WX27eFLYEGE"
+    },
+    {
+        "path": "-- Наше --/Mad Heads/Mad Heads - Пісня світла",
+        "yId": "lNA510nIgXg"
+    },
+
+
+    {
+        "path": "-- Наше --/Quest Pistols/Quest Pistols - Белая стрекоза любви",
+        "yId": "XhF5fswJ6hY"
+    },
+    {
+        "path": "-- Наше --/Quest Pistols/Quest Pistols - Дни гламура",
+        "yId": "sZt7jrdPCgQ"
+    },
+    {
+        "path": "-- Наше --/Quest Pistols/Quest Pistols - Я Устал",
+        "yId": "nhjC0-tLbUE"
+    },
+    {
+        "path": "-- Наше --/Quest Pistols/Quest Pistols - Клетка",
+        "yId": "n93KL1vQy0U"
+    },
+
+
+    {
+        "path": "-- Наше --/Сплин/Сплин - Романс",
+        "yId": "CIt5twRnT_0"
+    },
+    {
+        "path": "-- Наше --/Сплин/Сплин - Выхода нет",
+        "yId": "qgXpTUEU4LM"
+    },
+    {
+        "path": "-- Наше --/Сплин/Сплин - Новые люди",
+        "yId": "eq2bShkYl20"
+    },
+    {
+        "path": "-- Наше --/Сплин/Сплин и Би-2 - Феллини",
+        "yId": "ibi3BrvmUHo"
+    },
+    {
+        "path": "-- Наше --/Сплин/Сплин - Гандбол",
+        "yId": "4br3EOwnkH4"
+    },
+
+
+    {
+        "path": "-- Наше --/Tatu/Tatu - Простые движения",
+        "yId": "nMPjb_RrqDk"
+    },
+    {
+        "path": "-- Наше --/Tatu/Tatu - Gomenasai",
+        "yId": "gJhpYPECs40"
+    },
+    {
+        "path": "-- Наше --/Tatu/Tatu - 30 минут",
+        "yId": "UChPJSqTPEo"
+    },
+    {
+        "path": "-- Наше --/Tatu/Tatu - All About Us",
+        "yId": "6yP4Nm86yk0"
+    },
+
+
+
+    {
         "path": "-- Наше --/-- Остальное --/Браво - Любите, девушки",
         "yId": "qvyLSXGwoMw"
     }
