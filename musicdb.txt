@@ -2774,7 +2774,7 @@
         "yId": "9DSzGQVTTRs"
     },
     {
-        "path": "-- From Films --/Francis Lai - Fantasia En La Nieve (Love Story)",
+        "path": "-- From Films --/Francis Lai - Love Story (Love Story)",
         "yId": "WTSc4hBdCd0"
     },
     {
@@ -2796,10 +2796,6 @@
     {
         "path": "-- From Films --/Taxi",
         "yId": "i8ITGzgccn0"
-    },
-    {
-        "path": "-- From Films --/The Phantom Of The Opera - Theme Song",
-        "yId": "-JaeBxYCI9k"
     },
     {
         "path": "-- From Films --/The Phantom Of The Opera - Theme Song",
@@ -3053,11 +3049,11 @@
     },
     {
         "path": "-- Наше --/Лама/Лама - Тримай",
-        "yId": "KgK6lCa9wf4"
+        "yId": "liUpSRN5lyo"
     },
     {
         "path": "-- Наше --/Лама/Лама - Мені Так Треба",
-        "yId": "KgK6lCa9wf4"
+        "yId": "m7gJhegAboU"
     },
 
 
@@ -3122,19 +3118,19 @@
 
 
     {
-        "path": "-- Наше --/Tatu/Tatu - Простые движения",
+        "path": "-- Наше --/Тату/Тату - Простые движения",
         "yId": "nMPjb_RrqDk"
     },
     {
-        "path": "-- Наше --/Tatu/Tatu - Gomenasai",
+        "path": "-- Наше --/Тату/Тату - Gomenasai",
         "yId": "gJhpYPECs40"
     },
     {
-        "path": "-- Наше --/Tatu/Tatu - 30 минут",
+        "path": "-- Наше --/Тату/Тату - 30 минут",
         "yId": "UChPJSqTPEo"
     },
     {
-        "path": "-- Наше --/Tatu/Tatu - All About Us",
+        "path": "-- Наше --/Тату/Тату - All About Us",
         "yId": "6yP4Nm86yk0"
     },
 
