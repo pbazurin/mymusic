@@ -31,11 +31,9 @@ $.UI.Explorer = {
                     return;
                 }
 
-                $("." + ex._activeItemClass).removeClass(ex._activeItemClass);
-                $item.addClass(ex._activeItemClass);
-
                 history.pushState(null, '', ex._historyPrefix + item.yId);
                 $.UI.Player.Play(item);
+                ex.UpdateSelection();
             })
             .on("dblclick", "." + ex._itemClass, function (e) {
                 var item = $(this).data("item");
@@ -129,6 +127,7 @@ $.UI.Explorer = {
         $explorerContent.empty();
         ex._$template.tmpl(allItems).appendTo($explorerContent);
         ex._$currentPath.html(path);
+        ex.UpdateSelection();
     },
 
     GoToItem: function (item) {
@@ -143,7 +142,46 @@ $.UI.Explorer = {
             return;
         }
 
-        $.each($("." + ex._itemClass), function (_, i) {
+        ex.UpdateSelection();
+
+        if (!playerCurrentItem || playerCurrentItem.yId !== item.yId) {
+            pl.Play(item);
+        }
+    },
+
+    GetSelectedItem: function() {
+        var ex = $.UI.Explorer,
+            prefixIndex = document.URL.indexOf(ex._historyPrefix),
+            itemYId,
+            item;
+
+        if (prefixIndex === -1) {
+            return null;
+        }
+
+        itemYId = document.URL.slice(prefixIndex + ex._historyPrefix.length);
+
+        $.each(ex._musicItems, function (_, it) {
+            if (it.yId === itemYId) {
+                item = it;
+                return;
+            }
+        });
+
+        return item;
+    },
+
+    UpdateSelection: function () {
+        var ex = $.UI.Explorer,
+            item = ex.GetSelectedItem();
+
+        $("." + ex._activeItemClass).removeClass(ex._activeItemClass);
+
+        if (!item) {
+            return;
+        }
+
+        $.each($("." + ex._itemClass), function(_, i) {
             var $i = $(i);
 
             if ($i.data("item").path === item.path) {
@@ -151,10 +189,6 @@ $.UI.Explorer = {
                 return;
             }
         });
-
-        if (!playerCurrentItem || playerCurrentItem.yId !== item.yId) {
-            pl.Play(item);
-        }
     },
 
     Search: function(keyword) {
@@ -177,27 +211,12 @@ $.UI.Explorer = {
         $explorerContent.empty();
         ex._$template.tmpl(matchedItems).appendTo($explorerContent);
         ex._$currentPath.empty();
+        ex.UpdateSelection();
     },
 
     CheckHistory: function() {
         var ex = $.UI.Explorer,
-            prefixIndex = document.URL.indexOf(ex._historyPrefix),
-            itemYId,
-            item;
-
-        if (prefixIndex === -1) {
-            ex.GoToFolder();
-            return;
-        }
-
-        itemYId = document.URL.slice(prefixIndex + ex._historyPrefix.length);
-
-        $.each(ex._musicItems, function(_, it) {
-            if (it.yId === itemYId) {
-                item = it;
-                return;
-            }
-        });
+            item = ex.GetSelectedItem();
 
         item ? ex.GoToItem(item) : ex.GoToFolder();
     }
