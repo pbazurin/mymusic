@@ -27,22 +27,13 @@ $.UI.Explorer = {
                 var $item = $(this),
                     item = $item.data("item");
 
-                if (item.type !== ex.ItemType.MusicItem) {
-                    return;
+                if (item.type === ex.ItemType.MusicItem) {
+                    history.pushState(null, '', ex._historyPrefix + item.yId);
+                    $.UI.Player.Play(item);
+                    ex.UpdateSelection();
+                } else {
+                    ex.GoToFolder(item.path);
                 }
-
-                history.pushState(null, '', ex._historyPrefix + item.yId);
-                $.UI.Player.Play(item);
-                ex.UpdateSelection();
-            })
-            .on("dblclick", "." + ex._itemClass, function (e) {
-                var item = $(this).data("item");
-
-                if (item.type !== ex.ItemType.Folder) {
-                    return;
-                }
-
-                ex.GoToFolder(item.path);
             });
 
         $(".explorer_toolbar_search_text")
@@ -64,7 +55,7 @@ $.UI.Explorer = {
                 ex.Search($(this).val());
             });
 
-        $.getJSON("musicdb.min.txt", function(data) {
+        $.getJSON("db/music-db.min.txt", function(data) {
             $.each(data, function(_, item) {
                 item.name = item.path.split('/').pop();
                 item.type = ex.ItemType.MusicItem;
